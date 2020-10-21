@@ -1,4 +1,4 @@
-// Filling an array (part 1)
+// Filling an array (part 1);
 
 // We want an array, but not just any old array, an array with contents!
 
@@ -8,10 +8,10 @@
 
 // arr(5) // => [0,1,2,3,4]
 
-function arr(n) {
+function arr(n){
   const newArr = [];
-  for (let i = 0; i < n; i++) {
+  for (let i = 0; i < n; i++){
     newArr.push(i);
-  }
+  } 
   return newArr;
 }
